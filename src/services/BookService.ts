@@ -1,7 +1,7 @@
 import type { Book } from '../types/Book';
 import type { BookSearchParams } from '../types/Book';
 
-const API_BASE_URL = 'http://localhost:8080/api/books';
+const API_BASE_URL = 'http://bookstore-env.eba-xbbwhttm.ap-southeast-1.elasticbeanstalk.com/api/books';
 
 export const bookService = {
     // Get all books
